@@ -6,7 +6,7 @@ const Home = lazy(() => import("./pages/Home"));
 const App: Component = () => {
     return (
         <div class={styles.App}>
-            <h1>Hello, world!</h1>
+            <h1>Hello, world!!</h1>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/home" element={<Home />} />
