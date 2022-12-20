@@ -1,6 +1,6 @@
 import { styled } from "solid-styled-components";
-import logo from "../logo.svg";
-import styles from "../App.module.css";
+import logo from "../assets/logo.svg";
+import styles from "../styles/App.module.css";
 import { Component } from "solid-js";
 
 const Btn = styled("button")`
