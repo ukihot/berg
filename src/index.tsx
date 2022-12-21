@@ -1,31 +1,20 @@
 /* @refresh reload */
 import { render } from 'solid-js/web'
-import './styles/index.css'
 import { Component, lazy } from 'solid-js'
-import { Router, Routes, Route } from '@solidjs/router'
-import styles from './styles/Petal.module.css'
+import { Router} from '@solidjs/router'
 
-const Home = lazy(() => import('./pages/Home'))
-const ForumPetal = lazy(() => import('./pages/ForumPetal'))
-const TicketPetal = lazy(() => import('./pages/TicketPetal'))
+const Petal = lazy(() => import('./Petal'))
+const Stem = lazy(() => import('./Stem'))
 
 const Berg: Component = () => {
     return (
-        <div class={styles.App}>
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/forum" element={<ForumPetal />} />
-                <Route path="/ticket" element={<TicketPetal />} />
-            </Routes>
+        <div>
+            <Router>
+                <Stem />
+                <Petal />
+            </Router>
         </div>
     )
 }
 
-render(
-    () => (
-        <Router>
-            <Berg />
-        </Router>
-    ),
-    document.getElementById('root') as HTMLElement
-)
+render(() => <Berg />, document.getElementById('root') as HTMLElement)
