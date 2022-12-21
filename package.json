@@ -17,11 +17,11 @@
   },
   "dependencies": {
     "@solidjs/router": "^0.5.1",
-    "@tauri-apps/api": "^2.0.0-alpha.0",
-    "@tauri-apps/cli": "^2.0.0-alpha.0",
+    "@tauri-apps/api": "^1.2.0",
+    "@tauri-apps/cli": "^1.2.2",
     "internal-ip": "^7.0.0",
     "solid-js": "^1.5.1",
     "solid-styled-components": "^0.28.5"
   },
-  "type":"module"
+  "type": "module"
 }
