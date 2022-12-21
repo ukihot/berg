@@ -1,5 +1,5 @@
-import { Component, lazy } from "solid-js";
-import styles from "./App.module.css";
+import { Component } from "solid-js";
+import styles from "../styles/ForumPetal.module.css";
 
 const ForumPetal: Component = () => {
     return (
