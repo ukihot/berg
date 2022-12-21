@@ -1,7 +1,8 @@
 {
   "name": "berg",
   "version": "0.0.0",
-  "description": "",
+  "description": "It is an integrated tool that comprehensively handles internal news and task management.",
+  "author": "Yu Tokunaga <tokunaga.y@tyco.co.jp>",
   "scripts": {
     "start": "vite",
     "dev": "vite --host",
