@@ -1,11 +1,11 @@
 [package]
-name = "app"
+name = "berg"
 version = "0.1.0"
-description = "A Tauri App"
-authors = ["you"]
+description = "It is an integrated tool that comprehensively handles internal news and task management."
+authors = ["Yu Tokunaga <tokunaga.y@tyco.co.jp>"]
 license = ""
 repository = ""
-default-run = "app"
+default-run = "berg"
 edition = "2021"
 rust-version = "1.59"
 
