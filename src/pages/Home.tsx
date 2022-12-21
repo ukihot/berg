@@ -1,28 +1,21 @@
-import { styled } from "solid-styled-components";
-import logo from "../assets/logo.svg";
-import styles from "../styles/App.module.css";
-import { Component } from "solid-js";
+import { styled } from 'solid-styled-components'
+import styles from '../styles/Petal.module.css'
+import { Component } from 'solid-js'
+import { A } from '@solidjs/router'
 
-const Btn = styled("button")`
+const Btn = styled('button')`
     border-radius: 4px;
-`;
+`
 
 const Home: Component = () => {
     return (
-        <header class={styles.header}>
-            <img src={logo} class={styles.logo} alt="logo" />
-            <p>
-                Edit <code>src/App.tsx</code> and save to reload.
-            </p>
-            <a
-                class={styles.link}
-                href="https://github.com/solidjs/solid"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                Learn Solid
-            </a>
-        </header>
-    );
-};
-export default Home;
+        <div class={styles.App}>
+            <h1>Hello, world!!</h1>
+            <Btn>
+                <A href="/forum">Forum</A>
+                <A href="/ticket">Ticket</A>
+            </Btn>
+        </div>
+    )
+}
+export default Home
