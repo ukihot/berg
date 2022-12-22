@@ -8,7 +8,7 @@ const Stem: Component = () => {
             <nav>
                 <A href="/">Berg</A>
 
-                <A href="/forum">Forum</A>
+                <A href="/material">Material</A>
 
                 <A href="/ticket">Ticket</A>
             </nav>
